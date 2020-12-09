@@ -1,0 +1,45 @@
+body {
+    color: rgb(128, 64, 64);
+    background-color: rgb(128, 128, 128); 
+    text-align: center;        
+}
+
+h1 {
+    font-size: 1.5rem;
+    margin: 5px auto;
+}
+
+.score {
+    padding: 10px 0px;
+    color: rgb(100, 50, 15);
+    font-size: 1rem;
+}
+
+.smashed {
+    color: rgb(75, 255, 0);
+}
+
+.missed {
+    color: rgb(255, 0, 0);
+}
+
+div {
+    display: inline-block;
+}
+
+table {
+    cursor: url('../img/hammer.png'), default;
+}
+
+td {    
+    width: 125px;
+    height: 125px; 
+    background-color: rgb(55, 80, 55);
+    border: 5px solid #000; 
+    border-radius: 50%;    
+}
+
+img {
+    width: 120px;
+    height: 120px;
+}
